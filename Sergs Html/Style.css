@@ -1,0 +1,115 @@
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(Image/musashi.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.container{
+    height: 100vh;
+    width: 100%;  
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.Logo{
+    width: 160px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+
+}
+nav ul li{
+   display: inline-block;
+   list-style: none;
+   margin: 0px 20px;    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.content h1{
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: black;
+}
+.content p{
+    font-size: 20px;
+    color: black;
+}
+.content{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 15%;
+    margin-top: 15%;
+}
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #e77c4a, #bdc736);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(222, 228, 138, 0.15);
+}
+.arrow-icons{
+    margin-top: 40px;
+    display: flex;
+    
+}
+.arrow-icons img{
+    width: 30px;
+    margin-right: 25px;
+}
+
+.center-container{
+    display: contents;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.table-container{
+    margin: 0 auto;
+    width: 80%;
+}
+.styled-table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    text-align: left;  
+}
+.styled-table th {
+    padding: 12px 15px;
+    border-bottom: 1px solid#f2f2f2;
+}
+.styled-table td{
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+.styled-table th{
+    background-color: #f2f2f2;
+}
+.styled-table tbody tr:hover{
+    background-color: #f5f5f5;  
+}
+.styled-table img{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 25%;
+}
